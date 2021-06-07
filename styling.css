@@ -1,0 +1,28 @@
+body{
+    height: 100%;
+    background-color: #202020;
+}
+#a2 {
+    color:rgb(233, 0, 0);
+}
+.row{
+    padding: 1rem;
+    border-style: solid;
+    border: tomato;
+    
+}
+.padding{
+    padding: 1rem;
+}
+#vasu {
+    width: 100%;
+    height: 80%;    
+    object-fit: cover;
+}
+#sevenoaks{
+    width: 75%;
+    height: 75%;
+}
+.card-body{
+    background-color: #202020;    
+}
