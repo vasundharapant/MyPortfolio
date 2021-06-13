@@ -9,26 +9,44 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>-->
+    <script src="https://kit.fontawesome.com/9a29dc3407.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB-->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+    ></script> 
 </head>
 <body>    
 <!--Navigation Bar-->
 
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid" >
-            <a href="#" class="navbar-brand" >Portfolio</a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#list1">
-                <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#"  >PORTFOLIO</a>
+            <button type="button" class="navbar-toggler" data-mdb-toggle="collapse" data-mdb-target="#list1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse" id="list1">
+            <div class="collapse navbar-collapse " id="list1">
+                
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active">Home</a>
+                        <a href="#introduction" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#education" class="nav-link">Education</a>
@@ -37,115 +55,244 @@
                         <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">PORs</a>
+                        <a href="#skills" class="nav-link">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact Info</a>
+                        <a href="#achievements" class="nav-link">Achievements</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="#pors" class="nav-link">PORs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactinfo" class="nav-link">Contact Info</a>
+                    </li>
+
                 </ul>
             </div>
         </div>       
     </nav>
 
-<!--Introduction-->
-
-    <div class="container-fluid" style="background-color: #C0C0C0">
-        <div class="row justify-content-center ">
-            <div class="d-flex col-6 col-md-4 col-lg-2 align-items-center">
-                <img id="vasu" src="images/vasu.jpeg" class="rounded-circle" >
+<!--Introduction-->    
+        
+<div id="introduction"  class="container-fluid" >
+    <div class="bg-image" style="background-image: url(images/campus.jpg); height:80vh;width: 100%;">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+        <div class="row justify-content-center mt-5">
+            <div class="d-flex col-6 col-md-4 col-lg-3 col-xxl-2 align-items-center">
+                <img id="vasundhara" src="images/vasu.jpeg" class="rounded-circle shadow" >
             </div>
-            <div  class="d-flex col-sm-12 col-md-8 align-items-center justify-content-center">   
-                <div>
-                    <h1>Vasundhara Pant</h1>
+            <div  class="d-flex col-sm-12 col-md-8 col-lg-9 align-items-center justify-content-center">   
+                <div >
+                    <h1 style="font-size: 3rem;">Vasundhara Pant</h1>
                     <h4><i>Indian Institute of Technology, Ropar</i></h4>
-                    <p>Civil Engineering Undergraduate 2019-2023</p>                            
+                    <h5>Civil Engineering Undergraduate 2019-2023</h5>                            
             
                 </div>             
-                 </div>         
+                    </div>         
     
-        </div>            
+        </div> 
+        </div> 
     </div>
+                
+</div>
+   
+    
 
 <!--Education-->
 
-    <div class="container-fluid pt-5" style="background-color: #C0C0C0">
-        <div class="row container-fluid padding ">
-            <h1 class="text-center" id="education">EDUCATION</h1>
+    <div class="container-fluid pt-5" id="education">
+        
+        <div class="row container-fluid ">
+            <h1 class="text-center" ><b>EDUCATION</b></h1>
         </div>
+        <hr class="dark">
         <div class="row container-fluid padding justify-content-center align-items-center">
-            <div class="col-sm-12 col-md-4">
-                <h1>
-                    High School
-                </h1>
-                <h2>Board: ICSE/ISC</h2>
-                <br>
-                <p><b>Class X<sup>th</sup></b>: 97.2%</p>
-                <p><b>Class XII<sup>th</sup></b>: 97%</p>
-            </div>
-            <div class="col-sm-12 col-md-4">
-                <img id="sevenoaks" src="images/sevenoaks.jpeg" alt="Seven Oaks School">
-                <h2>
-                    SEVEN OAKS SCHOOL
-                </h2>
-                <h3>Dehradun, Uttarakhand</h3>
+            
+                <div class="col-sm-12 col-md-4">
+                    <h1>
+                        <b>High School</b>                        
+                    </h1>
+                    <h2><b>Board:</b> ICSE/ISC</h2>
+                    <br>
+                    <h3><b>Class X<sup>th</sup></b>: 97.2%</h3>
+                    <h3><b>Class XII<sup>th</sup></b>: 97%</h3>
+                </div>
+                <div class="col-sm-12 col-md-4"> 
                               
-            </div>
+                    <img class="box-shadow" id="sevenoaks" src="images/sevenoaks.jpeg" alt="Seven Oaks School">
+                    <h2>
+                        SEVEN OAKS SCHOOL
+                    </h2>
+                    <h3>Dehradun, Uttarakhand</h3>
+                        
+                </div>
+            
         </div>
     </div>
 
 <!--Projects-->
     
 
-    <div id="projects" class="container-fluid pt-5" style="background-color: #C0C0C0">
-        <div class="row text-center">
+    <div id="projects" class="container-fluid pt-5" >
+        <div class="row text-center text-light">
 
-            <h1>PROJECTS</h1>
+            <h1><b>PROJECTS</b></h1>
         </div>
-        <div class="row align-items-center">
-            <div class="col-sm">
+        <hr class="light">
+        <div class="row align-items-center justify-content-center">
+            
+            <div class="col-sm-10 col-md-4 col-lg-3 padding">
                 <div class="card" >
                     <img src="images/Johnson.png" class="card-img-top" alt="johnson's algorithm">
                     <div class="card-body">
-                      <h5 class="card-title text-light"><b>Analysis of Johnson's Algorithm</b></h5>
-                      <p class="card-text text-light">Implemented Different Heaps including Binary, Binomial and Fibonnaci to run and analyze the time complexity of the Dijkstra part of the algorithm.</p>
+                      <h5 class="card-title "><b>Analysis of Johnson's Algorithm</b></h5>
+                      <p class="card-text">Implemented Different Heaps including Binary, Binomial and Fibonnaci to run and analyze the time complexity of the Dijkstra part of the algorithm.</p>
                       <a href="https://github.com/vasundharapant/Johnson-s-Algo-Analysis-using-Diff-Heaps" target="_blank" class="btn btn-primary">Link to project</a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm-10 col-md-4 col-lg-3 padding">
+                <div class="card">
+                    <img src="images/snakegame.png" class="card-img-top" alt="Snake Game" >
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Games 2-D</b></h5>
+                      <p class="card-text">Made a Snake and a TicTacToe game using C language with full display of grids. Commands are given during runtime. Requires a large terminal(which acts as the gaming screen).</p>
+                      <a href="https://github.com/vasundharapant/Games_2D" targe="_blank" class="btn btn-primary">Link to project</a>
+                    </div>
+                </div>
+            </div>
+           <!-- <div class="col-sm-10 col-md-4 col-lg-3 padding">
                 <div class="card" >
-                    <img src="images/snakegame.png" class="card-img-top" alt="Snake Game">
+                    <img src="" class="card-img-top" alt="">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="" targe="_blank" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-              
+            </div>  -->
+            
+          
         </div>
     </div>
     
-    
+ <!--Skills-->
+ <div id="skills" class="container-fluid padding ">
+     <h1 class="text-center pt-5"><b>SKILLS</b></h1>
+     <hr class="dark">
+     <div class="row align-items-center justify-content-center">
+         <div class="col-10">
+             <p><b>Languages: </b>C, C++, Java, Python, MATLAB, HTML, CSS            
+             <br>
+             <b>Developer Tools: </b>Visual Studio Code, MathWorks, Spyder, Adobe Premiere Pro
+             <br>
+             <b>Extra-Curricular: </b>Content Writing, Debating, Video Editing, Public Speaking
+             </p>
+        </div>
+
+     </div>
+ </div> 
+ 
+<!--Achievements-->
+<div id="achievements" class="container-fluid padding ">
+    <h1 class="text-center pt-5"><b>ACHIEVEMENTS</b></h1>
+    <hr class="light">
+    <div class="row align-items-center justify-content-center" style="color:lavenderblush">
+        <div class="col-10">
+            <ul >
+                <li>
+                    <b>Competitive Programming:</b>
+                    <ul>
+                        <li style="white-space: pre;">Codeforces<br>Rated as: Specialist				Highest Rating: 1615(Expert)</li>
+                        
+                        Link to id: <a href="https://codeforces.com/profile/vasundharapant" target="_blank">https://codeforces.com/profile/vasundharapant</a>
+                        <li style="white-space: pre;">Codechef<br>Rated as: 4 stars					Highest Rating: 1906</li>
+                        
+                        Link to id: <a href="https://www.codechef.com/users/vasundharapant" target="_blank">https://www.codechef.com/users/vasundharapant</a> 
+                    </ul>
+                </li>
+                <li>
+                    <b>Awarded the Certificate of Appreciation in Enactus 2020 India Online Convention and Competition</b>
+                    <ul>
+                        <li>
+                            Was a member of the Enactus Nationals team of IIT Ropar. 
+                        </li>
+                        <li>
+                            We qualified the regional rounds of the competition to reach the semi finals.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Frank Anthony Memorial All India Inter School Impromptu Debate Competition</b>
+                    <ul>
+                        <li>2nd Runner up at Stage I ( Senior Group)</li>
+                    </ul>                    
+                </li>
+                <li>
+                    <b>National Science Olympiad (organized by Science Olympiad Foundation (SOF))</b>
+                    <ul>
+                        <li>Secured an international rank of 230</li>
+                    </ul> 
+                </li>
+            </ul>
+       </div>
+
+    </div>
+</div>
+
+<!--PORs-->
+<div id="pors" class="container-fluid padding">
+    <h1 class="text-center pt-5"><b>POSITIONS OF RESPONSIBILITY</b></h1>
+    <hr class="dark">
+    <div class="row align-items-center justify-content-center">
+        <div class="col-10">
+            <ul >
+                <li>
+                    <b>Student Mentor at Institute Student Mentorship Programme (ISMP)</b>	<br>IIT Ropar, Punjab, India
+                    <ul>
+                        <li >Was assigned as a mentor to a group of students to facilitate their transition into college life</li>
+                        <li>Co-hosted the virtual Campus Tour organized by ISMP for the M.Tech & M.Sc Batch of 2020.</li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Student Representative at Career Development and Corporate Relations Centre (CDCRC)</b>
+                    <ul>
+                        <li>
+                            We contact various companies on behalf of IIT Ropar to collaborate with them for placements and internships
+ 
+                        </li>
+                     </ul>
+                </li>
+                <li>
+                    <b>Content and Creativity Head at the Start-up JEECarnot</b>
+                    <ul>
+                        <li>A startup based on providing mentorship to JEE aspirants. </li>
+                        <li>I worked as the lead content writer for their website as well as their social media.</li>
+                    </ul>                    
+                </li>
+                
+            </ul>
+       </div>
+
+    </div>
+</div>
+
+<!--Contact Info-->
+<div id="contactinfo" class="container-fluid padding">
+    <h1 class="text-center padding text-light"><b>CONTACT INFO</b></h1>
+    <hr class="light" >
+    <div class="row align-items-center justify-content-center">
+        <div class="col-2">
+            <a href="https://github.com/vasundharapant" target="_blank"><i class="fab fa-github-square"></i></a> 
+        </div>
+        <div class="col-2">
+            <a href="https://www.linkedin.com/in/vasundhara-pant-a049831ab/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+        </div>
+        <div class="col-2">
+            <a href="mailto:vasundharapant@gmail.com" target="_blank"><i class="far fa-envelope"></i></a> 
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
